@@ -1,15 +1,13 @@
 #topnav{
   padding: 0 10px;
-
-  .logo-container{
+   .logo-container{
     img{
       width: 45px;
       height: 45px;
       margin-top: 2px;
       vertical-align: middle;
-    }
+    } 
   }
-
 //Widen the default button and dropdown size, by targeting the immediate child link of all .nav-links
   .nav-links > li{
     width: 195px;
@@ -95,8 +93,8 @@ $brand-primary: #428bca;
   .post-photo-wrapper img{
     display: block;
     margin:auto;
-    height: 200px;
-    width: 200px;
+    height: 100%;
+    width: 100%;
   }
 }
 

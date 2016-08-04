@@ -1,30 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  	<title>Tutorial Blogger Homepage</title>
+  	<title>Pepe Blogger Homepage</title>
   	<meta charset="utf-8">
-  	<!--Boostrap CSS-->
-  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/boostrap/3.2.0/css/bootstrap.min.css">
-  	<!--Bootstrap Javascripts-->
-  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-  	<!--CSS stylesheet for index.html-->
+   	<!--CSS stylesheet for index.html-->
   	<link rel="stylesheet" href="styles.css">
-  	<!--jQuery linkup for some nice javascript ezweezy times-->
-  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  	<script src="../../bootstrap-jquery/css/bootstrap.css"></script>
-  	<script src="../../bootstrap-jquery/js/bootstrap.min.js"></script>
-  	<script src="../../bootstrap-jquery/js/jquey.min.js"></script>
+   	<link rel="stylesheet" href="../../bootstrap-jquery/css/bootstrap.css"></link>
+  	<script src="../../bootstrap-jquery/js/bootstrap.min.js" type="text/javascript"></script>
+  	<script src="../../bootstrap-jquery/js/jquey.min.js" type="text/javascript"></script>
   </head>
-
   <body>
-
     <!--Tack on Bootstrap's special navbar class to our <nav> element--> 
   	<nav id="topnav" class="navbar navbar-default">
   	  <!--Make sure that the special navbar-brand class is added onto the <a> link so that it is properly centered and displayed--> 	
       <div class="logo-container">
         <img class="pull-left" src="https://66.media.tumblr.com/avatar_5772c15b0d64_128.png">
         <a href="#" class="navbar-brand">Pepe Blogger</a>
-
         <button type="button" 
                 class="navbar-toggle collapsed" 
                 data-toggle="collapse" 
@@ -34,9 +25,9 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-
       </div>
-      <!--Right hand buttons and dropdown as list items wrapped in Bootstrap classes--> 
+       <div class="links-container">
+   <!--Right hand buttons and dropdown as list items wrapped in Bootstrap classes--> 
       <ul class="nav navbar-nav navbar-right nav-links">
         <!--Create post button is a list item with it's own class-->
         <li class="highlighted-btn">
@@ -47,7 +38,7 @@
         <!--Dropdown menu copied from Bootstrap's documentations and pared down to fit our needs-->
         <li class="dropdown">
           <a class="dropdown-toggle" href="#" data-toggle="dropdown">
-            Example User <span class="caret"></span>
+            Meme Master <span class="caret"></span>
           </a>
           <ul class="dropdown-menu" role="menu">
             <li>
@@ -64,15 +55,9 @@
       </ul>
     </li>
   </ul>
-  <div class="links-container">
-
   </div>
 </nav>
-
-
-    
   <main>
-
  <div class="row">
    <section id="search-container" class="col-md-8 col-md-offset-2">
      <form>
@@ -85,9 +70,7 @@
      </form>
    </section>
  </div>
-
     <section class="col-md-8 col-md-offset-2">
-
   <article class="row post">
     <div class="col-md-9 col-centered">
       <header>
@@ -98,7 +81,7 @@
         </h1>
         <div class="post-date-wrapper">
           <time datetime="Fri, 05 Sep 2014 00:40:29 GMT" pubdate>
-            Posted at 9/5/2014 by Example User
+            Posted at 9/5/2014 by Meme Master
           </time>
         </div>
       </header>
@@ -119,18 +102,17 @@
       </div>
     </div>
   </article>
-
   <article class="row post">
     <div class="col-md-9 col-centered">
       <header>
         <div class="post-date-wrapper">
           <time datetime="#" pubdate>
-            Posted 7/16/2014 by Example User
+            Posted 7/16/2014 by Meme Master
           </time>
         </div>
       </header>
       <div class="post-photo-wrapper">
-        <img src="#">
+        <img src="https://67.media.tumblr.com/a2aa05146b87dfafafdb31079e35f7f2/tumblr_inline_nnmvuuZ8Bb1sj0hte_500.png">
       </div>
       <div class="comment-links-wrapper">
         <div class="view-comments">
@@ -146,7 +128,6 @@
       </div>
     </div>
   </article>
-
 </section>
   </main>
   </body>
